@@ -1,0 +1,19 @@
+/*!
+ Theme Name:   SSPRSS child theme
+ Theme URI:    https://github.com/kristinadavidovic/ssprss-child-theme
+ Description:  A SSPRSS website child theme (from Flash theme)
+ Author:       Kristina Davidovic
+ Author URI:   https://github.com/kristinadavidovic
+ Template:     flash
+ Version:      1.0.0
+*/
+
+// styling from the parent theme
+@import "../../flash/assets/sass/mixins";
+@import "../../flash/assets/sass/theme-style";
+
+// setup
+@import "setup/variables";
+
+// navigation
+@import "navigation/menu";
